@@ -7,5 +7,5 @@
 #Description: This script will take the backup of the directory where are running it in.
 #Usuage: Use backup_script.sh when you need a backup of a script.
 
-tar -cvzf backup_dir.tar .
+tar -cvzf backup_dir_"$(date +%d-%m-%y_%H_%M_%S)".tar .
 exit 0
