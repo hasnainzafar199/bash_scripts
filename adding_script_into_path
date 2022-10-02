@@ -1,0 +1,4 @@
+Open the file: ~/.bash_profile
+At the end of the script add: export PATH="$PATH:/path/of/script"
+Save the changes made to the file and get out of it: wq
+Now reboot the system or reload the file in your system with source command: source ~/.bash_profile
